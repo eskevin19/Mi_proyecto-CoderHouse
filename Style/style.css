@@ -121,8 +121,8 @@ body{
 }
 .images:hover{
     
-    transform: scale(1.5);
-    transition: all .5s;
+    transform: scale(1.1);
+    transition: all 1s;
 }
 .images{
     border-radius: 10% 30% 50% 70%;
