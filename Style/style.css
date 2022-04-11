@@ -95,4 +95,19 @@ body{
 }
 /*-----------------------Página Contacto------------------------*/
 
-
+/* Página violines */
+.title{
+    background-color: rgb(253, 210, 154);
+    color: rgb(153, 18, 18);
+    border-radius: 0 0 5px 5px;
+}
+.card{
+    border-radius: 8px;
+}
+.scale:hover{
+    transform: scaleX(3 0.5);
+}
+.cuerpo{
+    background-color: rgb(222, 184, 135);
+    border-radius: 4px;
+}
