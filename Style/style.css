@@ -114,6 +114,7 @@ body{
     background-color: rgb(222, 184, 135);
     border-radius: 4px;
 }
+
 .size{
     width: 100%;
 }
@@ -121,4 +122,10 @@ body{
 .fondo{
     background-color: blanchedalmond;
     border-radius: 10px;
+}
+
+/* página conciertos */
+.linea{
+    margin: auto;
+    width: 50%;
 }
