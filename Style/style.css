@@ -117,3 +117,8 @@ body{
 .size{
     width: 100%;
 }
+/* página museos */
+.fondo{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
