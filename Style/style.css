@@ -104,10 +104,16 @@ body{
 .card{
     border-radius: 8px;
 }
+.card-title{
+    letter-spacing: 2px;
+}
 .scale:hover{
     transform: scaleX(3 0.5);
 }
 .cuerpo{
     background-color: rgb(222, 184, 135);
     border-radius: 4px;
+}
+.size{
+    width: 100%;
 }
