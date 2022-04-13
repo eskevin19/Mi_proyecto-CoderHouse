@@ -1,5 +1,9 @@
 /*Fuente*/
 @font-face {
+    font-family: Cursiva;
+    src: url(/Fonts/slightly_cursive_characters/5thgradecursive-2.ttf)
+}
+@font-face {
     font-family: Altona;
     src: url(/Fonts/altona_sans/AltonaSans-Regular.ttf);
 }
@@ -14,67 +18,47 @@ body{
 }
 
 /*-------------------------------Navegador------------------------------*/
-.main-nav{
-    display: flex;
-    background: linear-gradient(black, rgb(53, 48, 42));
-    padding: 0.7rem;
+.deconav{
+    background-color: bisque;
+    border-bottom: 2px solid rgb(233, 210, 183);
 }
-.main-nav a{
-    text-decoration: none;
-    color: rgb(218, 103, 61);
-    font-size: 1rem;
-}
-.main-nav a:hover{
-    color: rgb(240, 246, 252);
-    text-shadow: 0 0 5px rgb(225, 238, 243),
-    0 0 10px rgb(209, 227, 235),
-    0 0 20px rgb(209, 227, 235),
-    0 0 40px rgb(214, 235, 243),
-    0 0 80px rgb(202, 225, 233),
-    0 0 90px rgb(215, 231, 236),
-    0 0 100px rgb(213, 231, 238),
-    0 0 140px rgb(198, 224, 233),
-    0 0 180px rgb(196, 219, 228);
-}
-.main-nav a:active{
-    color: rgb(63, 64, 65);
-    text-shadow: 0 0 5px rgb(63, 64, 65),
-    0 0 10px rgb(63, 64, 65),
-    0 0 20px rgb(63, 64, 65),
-    0 0 40px rgb(63, 64, 65),
-    0 0 80px rgb(63, 64, 65),
-    0 0 90px rgb(63, 64, 65),
-    0 0 100px rgb(63, 64, 65),
-    0 0 140px rgb(63, 64, 65),
-    0 0 180px rgb(63, 64, 65);
-    transition: all 1s;
-}
-.nav-li{
-    display: inline;
-    position: relative;
-    list-style: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    letter-spacing: 2px;
-}
-.main-nav .nav-ul .nav-li .nav-ul{
-    display: none;
-    position: absolute;
-}
-.dropdown-item:hover{
-    background: radial-gradient(circle, rgba(0,0,0,0.9500175070028011) 0%, rgba(1,1,1,0.9472163865546218) 32%, rgba(172,160,132,0.7595413165266106) 100%);
-    border-radius: 10px;
-}
-.main-nav .nav-ul .nav-li:hover .nav-ul{
+
+.nav-link { 
+    display: table-cell; 
+    position: relative; 
+    padding: 4px 0;
+  }
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
     display: block;
-    background: linear-gradient(rgba(26, 23, 20, 0.973), rgb(207, 185, 159));
-    border-radius: 0px 0px 10px 10px;
-    padding-left: 1rem;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+.navbar-collapse{
+    flex-grow: 0;
 }
-.main-nav .logo{
-    display: inline-block;
-    width: 8rem;
+.fuente{
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.logo{
+    display: absolute;
+    width: 10rem;
+    
+}
+
 /*--------------------------------seccion Principal--------------------------*/
 .card-text{
     color: black;
@@ -128,4 +112,13 @@ body{
 .linea{
     margin: auto;
     width: 50%;
+}
+
+
+
+/* media querys */
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
 }
