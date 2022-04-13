@@ -14,35 +14,42 @@
 </head>
 <body>
                                  <!--Navegador-->
-<header>
-  <nav class="main-nav container-fluid sticky-top navbar-expand-xl">
-    <div class="">
-      <a class="logo" href="../index.html#inicio">
-        <img src="../Multimedia/Image/Icons/dStulle_Vilolin.svg" alt="imagen-violin-logo">
-      </a>
-    </div>
-    <div class="">
-      <ul class="nav-ul d-flex align-items-baseline bd-highlight mb-2">
-        <li class="nav-li"><a href="./violines.html">Violines</a>
-          <ul class="nav-ul">
-            <li class="nav-li"><a href="./violines.html#barroco">Barroco</a></li>
-            <li class="nav-li"><a href="./violines.html#electrico">Eléctrico</a></li>
-            <li class="nav-li"><a href="./violines.html#semielectrico">SemiEléctrico</a></li>
-            <li class="nav-li"><a href="./violines.html#acustico">Acústico</a></li>
-            <li class="nav-li"><a href="./violines.html#5cuerdas">5Cuerdas</a></li>
-            <li class="nav-li"><a href="./violines.html#fiddle">Fiddle</a></li>
-            <li class="nav-li"><a href="./violines.html#violinofon">Violinofón</a></li>
-            <li class="nav-li"><hr class="dropdown-divider"></li>
-            <li class="nav-li"><a class="dropdown-item" href="./tienda.html">→Nuestra Tienda</a></li>
-          </ul>
-        </li>
-        <li class="nav-li"><a href="./museo.html">Museo</a></li>
-        <li class="nav-li"><a href="./conciertos.html">Conciertos</a></li>
-        <li class="nav-li"><a href="./contacto.html">Quiénes Somos</a>
-      </ul>
-    </div>
-  </nav>
-</header>
+                                 <header>
+                                  <nav class="navbar navbar-expand-lg navbar-light deconav sticky-top">
+                                    <div class="container-fluid fs-4">
+                                      <a class="navbar-brand logo" href="../index.html#bienvenidos">
+                                        <img src="../Multimedia/Image/Icons/dStulle_Vilolin.svg" alt="logo_pagina">
+                                      </a>
+                                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                      </button>
+                                
+                                      <div class="collapse navbar-collapse  text-end" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-4 mb-0 mb-lg-0">
+                                          <li class="nav-item">
+                                            <a class="nav-link fuente" aria-current="page" href="./conciertos.html">Conciertos</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link fuente" href="./museo.html">Museo</a>
+                                          </li>
+                                          <li class="nav-item dropdown">
+                                            <a class="nav-link  fuente" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Violines
+                                            </a>
+                                            <ul class="dropdown-menu fs-5" aria-labelledby="navbarDropdown">
+                                              <li><a class="dropdown-item" href="./Pages/violines.html">Ir a violines</a></li>
+                                              <li><a class="dropdown-item" href="./Pages/tienda.html">Nuestra Tienda</a></li>
+                                              <li><hr class="dropdown-divider"></li>
+                                              <li><a class="dropdown-item disabled">No te pierdas nuestras ofertas!</a></li>
+                                            </ul>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link fuente" href="./Pages/contacto.html">Contactate</a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </nav>
                     <!-- Fin navegador -->
     <!------Principal area------->
     <section class="container-fluid">
@@ -50,7 +57,7 @@
         <h1>
             Contactanos:
         </h1>
-    </div>
+      </div>
         
         <!---------Formulario---------->
         <form action="" class="Formulario">
