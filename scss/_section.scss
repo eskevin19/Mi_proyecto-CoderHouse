@@ -1,0 +1,11 @@
+@import 'listas';
+
+/* seccion principal */
+.card-text{
+    color: nth($colores, 1);
+}
+.card-body{
+    color: nth($colores, 1);
+}
+
+/* Fin seccion principal */

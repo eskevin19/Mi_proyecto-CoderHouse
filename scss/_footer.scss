@@ -1,0 +1,19 @@
+/* Footer */
+footer{
+    .logo{
+        display: absolute;
+        width: 10rem;
+    }
+    background-color: $bg-color-footer;
+    color: beige;
+    .font{
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: nth($fuente, 6);
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+
+/* End footer */

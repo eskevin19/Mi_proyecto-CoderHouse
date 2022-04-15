@@ -1,0 +1,32 @@
+/* Root */
+
+@font-face {
+    font-family: Cursiva;
+    src: url(/Fonts/slightly_cursive_characters/5thgradecursive-2.ttf)
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
+@font-face {
+    font-family: Altona;
+    src: url(/Fonts/altona_sans/AltonaSans-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+    background-color: bisque;
+}
+/* separador */
+
+@import 'listas';
+@import 'variables';
+@import 'header';
+@import 'section';
+@import 'footer';
+@import 'violines';
+@import 'querys';
