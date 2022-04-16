@@ -108,17 +108,6 @@ footer a {
 }
 
 /* Fin violines */
-/* media querys */
-@media screen and (max-height: 300px) {
-  ul {
-    margin-top: 40px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .ajust {
-    width: 100% !important;
-  }
-}
 #contact input[type=text],
 #contact input[type=email],
 #contact input[type=tel],
@@ -232,6 +221,23 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+/* media querys */
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 8000px) {
+  .iframe {
+    width: 400px !important;
+    height: 300px !important;
+  }
+
+  .ajust {
+    width: 100% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
