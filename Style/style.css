@@ -114,5 +114,10 @@ footer a {
     margin-top: 40px;
   }
 }
+@media screen and (max-width: 360px) {
+  .ajust {
+    width: 100% !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
