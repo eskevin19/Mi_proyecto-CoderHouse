@@ -1,18 +1,5 @@
-/* Root */
-
-@font-face {
-    font-family: Cursiva;
-    src: url(/Fonts/slightly_cursive_characters/5thgradecursive-2.ttf)
-}
 
 
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Yanone+Kaffeesatz:wght@300&display=swap');
-
-
-@font-face {
-    font-family: Altona;
-    src: url(/Fonts/altona_sans/AltonaSans-Regular.ttf);
-}
 *{
     padding: 0;
     margin: 0;
@@ -22,7 +9,7 @@ body{
     background-color: bisque;
 }
 /* separador */
-
+@import '../scss/componentes/Fuentes';
 @import '../scss/base/listas';
 @import '../scss/base/variables';
 @import '../scss/componentes/header';
@@ -32,3 +19,4 @@ body{
 @import '../scss/componentes/form-contacto';
 @import '../scss/componentes/museos';
 @import '../scss/base/querys';
+
