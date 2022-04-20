@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/* Root */
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Yanone+Kaffeesatz:wght@300&display=swap");
-@font-face {
-  font-family: Cursiva;
-  src: url(/Fonts/slightly_cursive_characters/5thgradecursive-2.ttf);
-}
-@font-face {
-  font-family: Altona;
-  src: url(/Fonts/altona_sans/AltonaSans-Regular.ttf);
-}
 * {
   padding: 0;
   margin: 0;
@@ -20,7 +11,25 @@ body {
 }
 
 /* separador */
+footer .logo, nav .logo {
+  display: absolute;
+  width: 10rem;
+}
+
+@font-face {
+  font-family: Cursiva;
+  src: url(/Fonts/slightly_cursive_characters/5thgradecursive-2.ttf);
+}
+@font-face {
+  font-family: Altona;
+  src: url(/Fonts/altona_sans/AltonaSans-Regular.ttf);
+}
 /* colores */
+footer .logo, nav .logo {
+  display: absolute;
+  width: 10rem;
+}
+
 /* Header, nav */
 nav {
   background-color: bisque;
@@ -32,6 +41,13 @@ nav .navbar-collapse {
 nav .fuente {
   font-weight: 900;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav .font {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 50px;
+  font-weight: 600;
+  background-color: 0;
+  color: rgb(78, 78, 78);
 }
 nav ul .nav-link {
   display: table-cell;
@@ -55,16 +71,17 @@ nav ul .nav-link:hover:after {
   left: 0;
 }
 nav .dropdown-menu {
-  background-color: antiquewhite;
   border: 1px solid rgb(233, 210, 183);
   border-top: none;
+  background-color: antiquewhite;
+  color: 0;
 }
-nav .logo {
+/* end header, nav */
+footer .logo, nav .logo {
   display: absolute;
   width: 10rem;
 }
 
-/* end header, nav */
 /* seccion principal */
 .card-text {
   color: black;
@@ -76,13 +93,14 @@ nav .logo {
 
 /* Fin seccion principal */
 /* Footer */
+footer .logo, nav .logo {
+  display: absolute;
+  width: 10rem;
+}
+
 footer {
   background-color: #191919;
   color: beige;
-}
-footer .logo {
-  display: absolute;
-  width: 10rem;
 }
 footer .font {
   font-family: "Cedarville Cursive", cursive;
@@ -93,6 +111,11 @@ footer a {
 }
 
 /* End footer */
+nav .logo, footer .logo {
+  display: absolute;
+  width: 10rem;
+}
+
 /* Página Violines */
 .size {
   max-width: 75%;
@@ -108,6 +131,11 @@ footer a {
 }
 
 /* Fin violines */
+nav .logo, footer .logo {
+  display: absolute;
+  width: 10rem;
+}
+
 #contact input[type=text],
 #contact input[type=email],
 #contact input[type=tel],
@@ -223,6 +251,59 @@ fieldset {
   color: #888;
 }
 
+nav .logo, footer .logo {
+  display: absolute;
+  width: 10rem;
+}
+
+nav .logo, footer .logo {
+  display: absolute;
+  width: 10rem;
+}
+
+/* Tienda Page */
+.logo {
+  width: 4rem;
+}
+
+.caja {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  font-weight: 400;
+  list-style: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: antiquewhite;
+  color: 0;
+}
+.caja a {
+  text-decoration: none;
+  background-color: 0;
+  color: green;
+}
+.caja a:hover {
+  font-weight: 900;
+  color: rgb(26, 97, 26);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.082), 1px 1px 2px rgba(0, 0, 0, 0.082), 1px 1px 3px rgba(0, 0, 0, 0.082);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #228b22;
+  border-color: #2c812c;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1b6f1b;
+  border-color: #228b22;
+}
+.btn-primary:focus {
+  color: #fff;
+  background-color: #008f39;
+  border-color: #4c9141;
+  box-shadow: 0 0 0 0.25rem rgba(150, 170, 1, 0.4784313725);
+}
+
+/* end tienda Page */
 /* media querys */
 @media screen and (max-height: 300px) {
   ul {

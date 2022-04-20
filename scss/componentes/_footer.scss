@@ -1,8 +1,11 @@
 /* Footer */
+@import '../base/mixins';
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/operaciones';
 footer{
     .logo{
-        display: absolute;
-        width: 10rem;
+        @extend %icons
     }
     background-color: $bg-color-footer;
     color: beige;
