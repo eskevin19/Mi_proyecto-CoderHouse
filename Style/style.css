@@ -314,6 +314,25 @@ nav .logo, footer .logo {
   box-shadow: 0 0 0 0.25rem rgba(150, 170, 1, 0.4784313725);
 }
 
+.card__efect {
+  transition: transform 0.5s;
+}
+.card__efect::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  content: "";
+  opacity: 0;
+  z-index: -1;
+}
+.card__efect:hover::after, .card__efect:focus::after {
+  opacity: 1;
+}
+
 /* end tienda Page */
 /* media querys */
 @media screen and (max-height: 300px) {
