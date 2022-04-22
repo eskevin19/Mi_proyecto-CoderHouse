@@ -8,27 +8,14 @@
         width: $medidas * 2;
     }
     .caja{
-        border: 1.5px solid gray;
-        border-radius: 1rem;
         font-weight: 400;
         list-style: none;
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-        @include bg-color(antiquewhite, 0);
-        
-        a{
-            text-decoration: none;
-            @include bg-color(0, green);
-            
-            &:hover{
-                font-weight: 900;
-                color: rgb(26, 97, 26);
-                text-shadow: 
-                1px 1px 1px rgba(0, 0, 0, 0.082),
-                1px 1px 2px rgba(0, 0, 0, 0.082),
-                1px 1px 3px rgba(0, 0, 0, 0.082);
-            }
-        }
-        
+        box-shadow: 0 8px 32px 0 rgba(2, 3, 10, 0.37);
+        backdrop-filter: blur( 2.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        @include bg-color(rgba( 250, 235, 215, 0.35 ), 0);
     }
 
     .modal-content{
