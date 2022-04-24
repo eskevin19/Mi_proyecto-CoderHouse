@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -117,19 +117,6 @@ nav .logo, footer .logo {
 }
 
 /* Página Violines */
-.size {
-  max-width: 75%;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.bgcolor {
-  border-radius: 3px;
-  border: 1px solid gray;
-  background-color: rgb(248, 148, 81);
-}
-
 /* Fin violines */
 nav .logo, footer .logo {
   display: absolute;
