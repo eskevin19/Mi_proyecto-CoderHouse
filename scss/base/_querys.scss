@@ -1,3 +1,4 @@
+@import '../base/mapa';
 /* media querys */
 @media screen and (max-height: 300px) {
     ul {
@@ -6,6 +7,10 @@
 }
 
 @media  screen and (min-width: 300px) and (max-width: 928px) {
+    body{
+        background-color: map-get($mobile, bg-color-mobile);
+        font-size: map-get($mobile, mobile-font);
+    }
     .iframe{
         width: 400px!important;
         height: 300px!important;

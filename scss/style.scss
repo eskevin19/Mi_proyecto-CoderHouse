@@ -1,3 +1,14 @@
+@import '../scss/base/mapa';
+@import '../scss/componentes/Fuentes';
+@import '../scss/base/listas';
+@import '../scss/base/variables';
+@import '../scss/componentes/header';
+@import '../scss/componentes/section';
+@import '../scss/componentes/footer';
+@import '../scss/componentes/form-contacto';
+@import '../scss/componentes/museos';
+@import '../scss/componentes/tienda';
+@import '../scss/base/querys';
 
 
 *{
@@ -6,18 +17,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background-color: bisque;
+    background-color: map-get($option-desk, bg-color-desk );
 }
 /* separador */
-@import '../scss/componentes/Fuentes';
-@import '../scss/base/listas';
-@import '../scss/base/variables';
-@import '../scss/componentes/header';
-@import '../scss/componentes/section';
-@import '../scss/componentes/footer';
-@import '../scss/componentes/violines';
-@import '../scss/componentes/form-contacto';
-@import '../scss/componentes/museos';
-@import '../scss/componentes/tienda';
-@import '../scss/base/querys';
 
