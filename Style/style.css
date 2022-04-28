@@ -17,7 +17,6 @@ footer .logo, nav .logo {
   display: absolute;
   width: 10rem;
 }
-
 /* Header, nav */
 nav {
   background-color: bisque;
@@ -299,6 +298,7 @@ nav .logo, footer .logo {
     margin-top: 40px;
   }
 }
+
 @media screen and (min-width: 300px) and (max-width: 928px) {
   body {
     background-color: rgb(252, 218, 177);
@@ -325,5 +325,8 @@ body {
 }
 
 /* separador */
-
+.disclaimer{
+  position: none!important;
+}
+.footer,.generic-footer{margin-bottom:none!important}@media (min-width:374px){.footer,.generic-footer{margin-bottom:none!important}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:none!important}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:none!important}}.disclaimer{position:fixed;z-index:none!important;bottom:none!important;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:none!important}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}
 /*# sourceMappingURL=style.css.map */
